@@ -1,0 +1,40 @@
+.nav-pills {
+    font-family: 'Holtwood One SC', serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #777;
+    font-size: 2em;
+    color: #fff;
+    min-height: 65px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    z-index: 99;
+    white-space: nowrap;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.title{
+    font-size: 2.5em;
+    padding: 10px;
+    text-shadow: 0 0 5px #000;
+    color:#ffdd22;
+}
+
+.desc-normal {
+    color: #fff;
+}
+
+.desc-correct {
+    color: #88dd44;
+}
+
+.desc-incorrect {
+    color: #e82c0c;
+}
